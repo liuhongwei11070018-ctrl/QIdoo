@@ -1,0 +1,3 @@
+0d8aa74526515e38a1f9668913d5a12c885071ac6ae5ebac6c6e8b13a0190eeb  QIdoo-1.0-macOS-AppleSilicon.dmg
+30cfb145ac16d1bfb7ebbf7368e0d75ef032a39a9e3652a4357df50cbaface5a  QIdoo-1.0-macOS-Intel.dmg
+883894c0727324617365c86ad9e7418db3949bf9afc0252b6628e343868487d8  QIdoo-1.0-Windows-x64.exe

@@ -1,0 +1,1 @@
+export function placeScenePopover(input:{width:number;height:number;cardWidth:number;cardHeight:number;placement?:'auto'|'above';anchor?:{x:number;y:number;visible:boolean;avoid?:{left:number;right:number;top:number;bottom:number}}|null}):{left:number;top:number;arrow:number;above:boolean;x:number;y:number;tipX:number;tipY:number;visible:boolean};

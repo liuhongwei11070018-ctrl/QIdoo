@@ -1,0 +1,32 @@
+name: 缺陷反馈 / Bug report
+description: 帮助改进 QIdoo / Help improve QIdoo
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请在截图与日志中隐藏密钥、账号凭据和个人资料。
+        Thank you for reporting. Remove credentials and personal information from screenshots and logs.
+  - type: input
+    id: environment
+    attributes:
+      label: 系统与版本 / OS and QIdoo version
+      placeholder: macOS / Windows, processor, QIdoo version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果与实际结果 / Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 截图与补充信息 / Screenshots and additional context

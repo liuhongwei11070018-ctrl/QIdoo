@@ -1,0 +1,33 @@
+{
+  "name": "qidoo-community",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QIdoo desktop releases and selected Agent integration, task protocol and UI modules.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuhongwei11070018-ctrl/QIdoo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liuhongwei11070018-ctrl/QIdoo/issues"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-dom": ">=19"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  }
+}
